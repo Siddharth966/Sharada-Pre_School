@@ -16,7 +16,7 @@ function Navbar() {
             className="me-2"
           />
           <span>
-            Shri Sharada <span className="text-primary">Pre-School</span>
+            Shri Sharada Pre-School
           </span>
         </Link>
 

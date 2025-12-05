@@ -38,8 +38,8 @@ function AboutIntro() {
 
           <p className="text-center mx-auto" style={{ maxWidth: "850px" }}>
             At Shri Sharada Pre-School (C.B.S.E), children learn through joy,
-            curiosity, imagination and exploration. We believe learning should feel
-            like play — happy, exciting and full of discovery.
+            curiosity, imagination and exploration. We believe learning should
+            feel like play — happy, exciting and full of discovery.
           </p>
 
           <p className="text-center mx-auto mb-4" style={{ maxWidth: "850px" }}>
@@ -75,11 +75,11 @@ function AboutIntro() {
 
           {/* FEATURES */}
           <div
-            className="about-card rounded-4 p-4 shadow-sm mt-5 mx-auto"
-            style={{ maxWidth: "850px" }}
+            className="about-card feature-box rounded-4 p-4 shadow-sm mt-5 mx-auto"
+            style={{ maxWidth: "850px", }}
             data-aos="fade-up"
           >
-            <h5 className="fw-bold mb-3 text-center text-warning">
+            <h5 className="fw-bold mb-3 text-center">
               🌟 What Makes Us Special?
             </h5>
 

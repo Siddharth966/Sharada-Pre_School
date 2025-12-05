@@ -64,7 +64,7 @@ function Footer() {
       {/* Styling */}
       <style>{`
         .footer {
-          background: #0c4c92;
+          background: #03031edc;
         }
 
         .footer-logo {

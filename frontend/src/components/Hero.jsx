@@ -13,11 +13,8 @@ function Hero() {
         </marquee>
       </div>
 
-      <header id="home" className="hero-section text-white">
-        {/* Floating Decorative Shapes */}
-        <div className="floating-ball ball-1"></div>
-        <div className="floating-ball ball-2"></div>
-        <div className="floating-ball ball-3"></div>
+      <header id="home" className="hero-section text-black">
+      
 
         <div className="container py-5">
           <div className="row align-items-center">
@@ -30,10 +27,10 @@ function Hero() {
 
               <h1 className="display-5 fw-bold mb-3">
                 A Happy Start to Your <br/>
-                <span className="text-warning highlight">Child’s Learning Journey</span>
+                <span className="text-black highlight">Child’s Learning Journey</span>
               </h1>
 
-              <p className="lead text-light opacity-75 mb-4">
+              <p className="lead text-bs-dark-bg-subtle opacity-75 mb-4">
                 A safe learning place where kids explore, imagine, create and grow with joy.
               </p>
 
@@ -47,7 +44,7 @@ function Hero() {
                 </a>
               </div>
 
-              <div className="mt-4 small text-light opacity-75">
+              <div className="mt-4 medium text-danger opacity-75">
                 Guided by: <strong>Mrs. Shital Sakhare (M.A. English)</strong>
               </div>
             </div>
