@@ -56,8 +56,9 @@ function Footer() {
         <hr className="my-3 border-light" />
 
         <div className="text-center small">
-          © {new Date().getFullYear()} Shri Sharada Pre-School (C.B.S.E), Pune <br />
-          Managed by <strong>Shri Sharada Education Trust</strong>
+          © {new Date().getFullYear()} Shri Sharada Pre-School (C.B.S.E), Pune | Designed & Developed by
+           <strong> Guru Software Solutions </strong>
+           All Rights Reserved
         </div>
       </div>
 
