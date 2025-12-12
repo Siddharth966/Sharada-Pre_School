@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import kidsImg from "../assets/about-kids.png";
+import Marque from "../components/Marque";
 
 function AboutIntro() {
   useEffect(() => {
@@ -9,6 +10,36 @@ function AboutIntro() {
   }, []);
 
   return (
+    <>
+     {/* Styling */}
+      <style>{`
+        #about {
+          color: white !important;
+        }
+
+        #about p,
+        #about h2,
+        #about h5,
+        #about ul li,
+        #about strong {
+          color: white !important;
+        }
+
+        .info-box:hover {
+          transform: translateY(-4px);
+          background: rgba(255,255,255,0.2);
+          transition: 0.3s ease;
+        }
+
+        .about-card:hover {
+          transform: translateY(-6px);
+          box-shadow: 0px 8px 22px rgba(0,0,0,0.08);
+          transition: 0.4s ease;
+        }
+      `}</style>
+
+    <Marque/>
+    
     <section
       id="about"
       className="section-padding"
@@ -98,33 +129,9 @@ function AboutIntro() {
         </div>
       </div>
 
-      {/* Styling */}
-      <style>{`
-        #about {
-          color: white !important;
-        }
-
-        #about p,
-        #about h2,
-        #about h5,
-        #about ul li,
-        #about strong {
-          color: white !important;
-        }
-
-        .info-box:hover {
-          transform: translateY(-4px);
-          background: rgba(255,255,255,0.2);
-          transition: 0.3s ease;
-        }
-
-        .about-card:hover {
-          transform: translateY(-6px);
-          box-shadow: 0px 8px 22px rgba(0,0,0,0.08);
-          transition: 0.4s ease;
-        }
-      `}</style>
+     
     </section>
+    </>
   );
 }
 

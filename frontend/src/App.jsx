@@ -1,23 +1,20 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
-// Components
-import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
+import Home from "./pages/Hero";
+import About from "./pages/AboutIntro";
+import ProgramsPage from "./pages/Programs";
+import Contact from "./pages/ContactSection";
 import BackToTop from "./components/BackToTop";
 
-// Pages
-import Home from "./pages/Home";
-import About from "./pages/About";
-import ProgramsPage from "./pages/ProgramsPage";
-import Contact from "./pages/Contact";
+
 
 function App() {
   return (
     <BrowserRouter>
       <div className="app d-flex flex-column" style={{ minHeight: "100vh" }}>
 
-        {/* Navigation */}
         <Navbar />
 
         {/* Page Content */}

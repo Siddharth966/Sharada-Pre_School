@@ -1,7 +1,10 @@
 import React from "react";
+import Marque from "../components/Marque";
 
 function ContactSection({ showTitle = true }) {
   return (
+    <>
+    <Marque/>
     <section id="contact" className="section-padding"style={{
         background: "linear-gradient(135deg, #e6a8ecff, #a8e8b1ff)",
       }}>
@@ -90,6 +93,7 @@ function ContactSection({ showTitle = true }) {
         </div>
       </div>
     </section>
+    </>
   );
 }
 
