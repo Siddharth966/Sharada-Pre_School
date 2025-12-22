@@ -27,13 +27,13 @@ function Hero() {
 
         /* Background Images with gradient overlay */
         .bg-slide-1 { 
-          background-image: linear-gradient(rgba(23, 73, 126, 0.85), rgba(23, 73, 126, 0.9)), url(${bg1}); 
+          background-image: linear-gradient(rgba(231, 205, 146, 0.85), rgba(219, 190, 59, 0.9)), url(${bg1}); 
         }
         .bg-slide-2 { 
-          background-image: linear-gradient(rgba(46, 125, 50, 0.85), rgba(46, 125, 50, 0.9)), url(${bg2}); 
+          background-image: linear-gradient(rgba(236, 214, 105, 0.85), rgba(191, 187, 129, 0.9)), url(${bg2}); 
         }
         .bg-slide-3 { 
-          background-image: linear-gradient(rgba(183, 28, 28, 0.85), rgba(183, 28, 28, 0.9)), url(${bg3}); 
+          background-image: linear-gradient(rgba(213, 179, 100, 0.85), rgba(225, 178, 78, 0.9)), url(${bg3}); 
         }
 
         /* Smooth slide transition */
@@ -59,7 +59,7 @@ function Hero() {
 
         /* BADGE STYLING */
         .info-badge {
-          background: linear-gradient(135deg, #4CAF50, #2E7D32);
+          background: linear-gradient(135deg, #e2d241ff, #2E7D32);
           color: white;
           padding: 10px 20px;
           border-radius: 50px;
@@ -387,7 +387,7 @@ function Hero() {
               <div className="decorative-circle circle-1"></div>
               <div className="decorative-circle circle-2"></div>
               
-              {/* Floating Shapes */}
+              {/* Floating Shapes */} 
               <div className="floating-shape shape-1"></div>
               <div className="floating-shape shape-2"></div>
               <div className="floating-shape shape-3"></div>
@@ -415,7 +415,7 @@ function Hero() {
 
                       <div className="button-group d-flex gap-3 delay-2">
                         <Link to="/admission" className="cta-button primary">
-                          <span>🏫 Schedule a Tour</span>
+                          <span>🏫 Schedule Tour</span>
                         </Link>
                         
                         <a href="tel:+919011240081" className="cta-button secondary">
@@ -475,7 +475,7 @@ function Hero() {
                   
                   <div className="col-lg-6 mb-4 mb-lg-0">
                     <div className="main-card">
-                      <div className="info-badge" style={{background: "linear-gradient(135deg, #2196F3, #0D47A1)"}}>
+                      <div className="info-badge" style={{background: "linear-gradient(135deg, #f3c58aff, #e4bd78ff)"}}>
                         🎨 Creative Learning • 🧠 Cognitive Development
                       </div>
 
@@ -528,7 +528,7 @@ function Hero() {
                   
                   <div className="col-lg-6 mb-4 mb-lg-0">
                     <div className="main-card">
-                      <div className="info-badge" style={{background: "linear-gradient(135deg, #9C27B0, #6A1B9A)"}}>
+                      <div className="info-badge" style={{background: "linear-gradient(135deg, #d7d4caff, #c2c773ff)"}}>
                         🛡️ Safe Environment • ❤️ Nurturing Care
                       </div>
 

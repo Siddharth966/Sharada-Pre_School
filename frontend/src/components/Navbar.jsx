@@ -37,7 +37,7 @@ function Navbar() {
         <div className="container">
           
           {/* Logo + Brand */}
-          <Link className="navbar-brand fw-bold d-flex align-items-center text-dark" to="/">
+          <Link className="navbar-brand nav-link text-dark d-flex align-items-center text-dark" to="/">
             <img
               src={logo}
               alt="School Logo"
